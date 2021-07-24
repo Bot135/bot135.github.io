@@ -1,0 +1,71 @@
+body {
+    /*background: url(https://i.redd.it/2pt7a3hg34731.jpg) no-repeat; */
+    background-image: url("Flowers.webp");
+    background-size: cover;
+    height: 1vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+#demo {
+    font-family: 'Itim', cursive;
+    font-size: 10rem;
+    text-align: center;
+    color: aliceblue;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* -webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: 0.3px; */
+}
+
+.bee-image {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 0%;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    padding: 0px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(5%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.container-1 {
+    margin: auto;
+}
+
+.music-button {
+    background-color: transparent;
+    color: white;
+    font-size: 5rem;
+    border: none;
+    display: block;
+    margin: auto;
+    opacity: .3;
+    transition: all linear .2s;
+}
+
+.music-button:hover {
+    opacity: 1;
+}
+
+.fa-pause-circle-o {
+    display: none;
+}
+
+.black-bar {
+    background-color: rgba(0, 0, 0, 0.140);
+}
